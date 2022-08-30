@@ -12,7 +12,7 @@ class ScoreBoard extends Component{
                 {
                     teams.map((team)=>{
                         return(
-                            <div>
+                            <div key={team.id}>
                                 {team.nameClub}
                             </div>
                         )
