@@ -16,7 +16,8 @@ class ChangeText extends Component{
             <div className="container">
                 <h1>{text}</h1>
                 <button 
-                onClick={this.changeTheText} style={btnStyles}
+                onClick={this.changeTheText}
+                style={btnStyles}
                 >
                     Change Text
                 </button>
